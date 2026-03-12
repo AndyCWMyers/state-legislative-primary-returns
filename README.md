@@ -6,11 +6,11 @@ Candidate-level data on primary elections for U.S. state legislatures, covering 
 
 | | |
 |---|---|
-| **Candidates** | 144,864 candidate-election observations |
 | **States** | 49 states |
 | **Years** | 1990--2024 (35 election cycles) |
 | **Chambers** | Upper (senate) and lower (house/assembly) |
 | **Parties** | Democratic and Republican primaries |
+| **Candidates** | 144,864 candidate-election observations |
 
 ## Files
 
