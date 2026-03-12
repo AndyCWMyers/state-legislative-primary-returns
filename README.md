@@ -50,6 +50,14 @@ Identifiers linking candidates to [Klarner's](https://doi.org/10.7910/DVN/DGUMFI
 | `smd` | 1 if single-member district |
 | `district_seats` | Number of seats in this district |
 
+## Links to External Databases
+
+The dataset can be linked to the following external databases via the included identifier variables:
+
+- **[State Legislative Election Returns (SLERS)](https://doi.org/10.7910/DVN/DGUMFI)** (`klarner_id`) -- General election returns, including vote totals and win/loss outcomes for state legislative races.
+- **[Database on Ideology, Money in Politics, and Elections (DIME)](https://data.stanford.edu/dime)** (`bonica_rid`) -- Campaign contributions and donor-based ideology scores for candidates at all levels of U.S. government.
+- **[Follow the Money / NIMSP](https://www.followthemoney.org/)** (`ftm_id`) -- State-level campaign finance records, including contributions and expenditures.
+
 ## Citation
 
 > Myers, Andrew C. "State Legislative Primary Election Data, 1990--2024."
