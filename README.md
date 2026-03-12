@@ -8,7 +8,7 @@ Read our companion paper for complete details. Please direct questions and comme
 
 | | |
 |---|---|
-| **States** | 49 states |
+| **States** | 50 states |
 | **Years** | 1990--2024 (35 election cycles) |
 | **Chambers** | Upper (senate) and lower (house/assembly) |
 | **Parties** | Democratic and Republican primaries |
