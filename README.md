@@ -52,6 +52,6 @@ The database is available in three formats: CSV, Stata (.dta), and R (.rds). All
 
 > Myers, Andrew C. "State Legislative Primary Election Data, 1990--2024."
 
-## Sources
+## Publications Using This Data
 
-Primary election returns were compiled from state election offices, secretaries of state, and supplementary sources including the [State Legislative Election Returns (SLERS)](https://doi.org/10.7910/DVN/DGUMFI) dataset. Candidate identifiers are linked to the [Database on Ideology, Money in Politics, and Elections (DIME)](https://data.stanford.edu/dime).
+-
