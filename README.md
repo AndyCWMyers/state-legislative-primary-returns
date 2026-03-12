@@ -16,7 +16,7 @@ See this companion paper for complete details.
 
 ## Files
 
-The database is available in three formats: CSV, Stata (.dta), and R (.rds). All formats contain the same data.
+The database is available in three formats: CSV, Stata (.dta), and R (.rds). All formats contain the same data. Each row in the dataset corresponds to a candidate-election.
 
 ## Variables
 
