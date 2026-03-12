@@ -16,11 +16,7 @@ Companion paper is available here.
 
 ## Files
 
-| File | Format | Size |
-|---|---|---|
-| `stateleg_prim_elec_data_1990-2024.csv` | CSV | 11 MB |
-| `stateleg_prim_elec_data_1990-2024.dta` | Stata | 20 MB |
-| `stateleg_prim_elec_data_1990-2024.rds` | R (RDS) | -- |
+The database is available in three formats: CSV, Stata (.dta), and R (.rds). All formats contain the same data.
 
 ## Variables
 
