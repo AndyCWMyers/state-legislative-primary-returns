@@ -1,6 +1,6 @@
 # State Legislative Primary Election Data, 1990-2024
 
-Primary election returns for U.S. state legislatures, covering all 50 states from 1990 to 2024. The dataset includes vote totals, primary runoff results, incumbency status, and identifiers linking candidates to [Klarner's](https://doi.org/10.7910/DVN/DGUMFI) general election data, [DIME](https://data.stanford.edu/dime), and [Follow the Money](https://www.followthemoney.org/).
+Primary election returns for U.S. state legislatures, covering all 50 states from 1990 to 2024. The dataset includes vote totals, primary runoff results, and incumbency status.
 
 See this companion paper for complete details. Please direct questions and comments to [Andy Myers](www.andrewcwmyers.com).
 
@@ -16,7 +16,9 @@ See this companion paper for complete details. Please direct questions and comme
 
 ## Files
 
-The database is available in three formats: CSV, Stata (.dta), and R (.rds). All formats contain the same data. Each row in the dataset corresponds to a candidate-election.
+The database is available in three formats: CSV, Stata (.dta), and R (.rds). Each row in the dataset corresponds to a candidate-election.
+
+Identifiers linking candidates to [Klarner's](https://doi.org/10.7910/DVN/DGUMFI) general election data, [DIME](https://data.stanford.edu/dime), and [Follow the Money](https://www.followthemoney.org/).
 
 ## Variables
 
