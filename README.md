@@ -50,27 +50,6 @@ Candidate-level data on primary elections for U.S. state legislatures, covering 
 | `smd` | 1 if single-member district |
 | `district_seats` | Number of seats in this district |
 
-## Quick Start
-
-**R**
-```r
-library(haven)
-df <- read_dta("stateleg_prim_elec_data_1990-2024.dta")
-# or
-df <- readRDS("stateleg_prim_elec_data_1990-2024.rds")
-```
-
-**Stata**
-```stata
-use "stateleg_prim_elec_data_1990-2024.dta", clear
-```
-
-**Python**
-```python
-import pandas as pd
-df = pd.read_csv("stateleg_prim_elec_data_1990-2024.csv")
-```
-
 ## Citation
 
 > Myers, Andrew C. "State Legislative Primary Election Data, 1990--2024."
