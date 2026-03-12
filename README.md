@@ -54,4 +54,7 @@ The database is available in three formats: CSV, Stata (.dta), and R (.rds). All
 
 ## Publications Using This Data
 
--
+- Handan-Nader, Cassandra, Andrew C. W. Myers, and Andrew B. Hall. 2025. "Polarization and State Legislative Elections." *American Journal of Political Science.* [doi:10.1111/ajps.12973](https://doi.org/10.1111/ajps.12973)
+- Myers, Andrew C. W. 2025. "Do Donors Punish Extremist Primary Nominees? Evidence from Congress and American State Legislatures." *American Political Science Review.* [doi:10.1017/S000305542510138X](https://doi.org/10.1017/S000305542510138X)
+- Fouirnaies, Alexander, and Andrew B. Hall. 2020. "How Divisive Primaries Hurt Parties: Evidence from Near-Runoffs in US Legislatures." *Journal of Politics* 82(1): 43--56. [doi:10.1086/705597](https://doi.org/10.1086/705597)
+- Rogers, Steven. 2023. *Accountability in State Legislatures.* University of Chicago Press.
