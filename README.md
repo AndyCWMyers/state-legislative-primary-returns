@@ -18,8 +18,6 @@ Read our companion paper for complete details. Please direct questions and comme
 
 The database is available in three formats: CSV, Stata (.dta), and R (.rds). Each row in the dataset corresponds to a candidate-election.
 
-Identifiers linking candidates to [Klarner's](https://doi.org/10.7910/DVN/DGUMFI) general election data, [DIME](https://data.stanford.edu/dime), and [Follow the Money](https://www.followthemoney.org/).
-
 ## Variables
 
 | Variable | Description |
