@@ -1,4 +1,4 @@
-# State Legislative Primary Election Data, 1990-2024
+# State Legislative Primary Elections Data, 1990-2024
 
 Primary election returns for U.S. state legislatures, covering all 50 states from 1990 to 2024. The dataset includes vote totals, primary runoff results, and incumbency status.
 
