@@ -1,6 +1,6 @@
 # Data dictionary: provisional release, 2026-09-19
 
-159,573 rows; 58 fields. New years are regular-term primary/runoff returns only. Missing does not mean zero. Historical outcome coding is preserved, not revalidated for all advancement systems.
+159,573 rows; 26 fields. New years are regular-term primary/runoff returns only. Missing does not mean zero. Historical outcome coding is preserved, not revalidated for all advancement systems.
 
 | Variable | Description | Availability |
 |---|---|---|
@@ -30,35 +30,3 @@
 | `inc` | Historical same-chamber incumbency (1/0); missing for the extension. | Historical only; missing for extension |
 | `smd` | Historical single-member district indicator; missing for the extension. | Historical only; missing for extension |
 | `district_seats` | Historical number of seats; unsupported counts remain missing in the extension. | Historical only; missing for extension |
-| `primary_id` | New stable candidate-ballot-cycle identifier (P plus SHA-256); not a cross-year person link. | Extension only; generally absent historically |
-| `full_name` | Literal candidate name retained from the collection. | Extension only; generally absent historically |
-| `collection_id` | New stable collection record identifier (C plus SHA-256). | Extension only; generally absent historically |
-| `cycle_id` | Collection election-cycle label; distinguishes replacement or rescheduled cycles. | Extension only; generally absent historically |
-| `ballot_party` | Source collection ballot-party code, retained separately from analytical party. | Extension only; generally absent historically |
-| `race_key` | Collection contest key incorporating year, state, office, district, party grouping, and cycle. | Extension only; generally absent historically |
-| `source_status` | Certification or source-status description retained from collection. | Extension only; generally absent historically |
-| `source_review_flag` | 1 if collection source status requires review; 0 otherwise. See source status for qualifications. | Extension only; generally absent historically |
-| `replaced_for_nomination` | Collection flag identifying a superseded nomination cycle where reported. | Extension only; generally absent historically |
-| `replacement_source_url` | Documentation for a replacement or rescheduled nomination cycle. | Extension only; generally absent historically |
-| `election_date_p` | Reported primary date. | Extension only; generally absent historically |
-| `election_date_pr` | Reported primary runoff date. | Extension only; generally absent historically |
-| `contest_id_p` | Source primary contest identifier. | Extension only; generally absent historically |
-| `contest_id_pr` | Source primary runoff contest identifier. | Extension only; generally absent historically |
-| `candidate_id_p` | Source primary candidate identifier; not a national person ID. | Extension only; generally absent historically |
-| `candidate_id_pr` | Source primary runoff candidate identifier; not a national person ID. | Extension only; generally absent historically |
-| `source_contest_p` | Literal primary contest label. | Extension only; generally absent historically |
-| `source_contest_pr` | Literal primary runoff contest label. | Extension only; generally absent historically |
-| `source_url_p` | Official source URL for the primary return. | Extension only; generally absent historically |
-| `source_url_pr` | Official source URL for the primary runoff return. | Extension only; generally absent historically |
-| `source_file_p` | Archived local input path for the primary return. | Extension only; generally absent historically |
-| `source_file_pr` | Archived local input path for the primary runoff return. | Extension only; generally absent historically |
-| `primary_only` | Extension flag marking records integrated without general-election data. | Extension only; generally absent historically |
-| `general_data_available` | Extension flag recording whether general-election data are available in this integration (0). | Extension only; generally absent historically |
-| `identity_link_status` | Status of historical-person and external-identifier linkage. | Extension only; generally absent historically |
-| `district_map_status` | Status of geographic district/regime validation. | Extension only; generally absent historically |
-| `coverage_review_status` | Status of contest-coverage review; not a certification of national completeness. | Extension only; generally absent historically |
-| `outcome_status` | Reason outcome indicators and derived shares remain unvalidated. | Extension only; generally absent historically |
-| `runoff_status` | Observed or unobserved runoff-return status. | Extension only; generally absent historically |
-| `source_vote_for` | Published ballot vote limit; not automatically seats or number advancing. | Extension only; generally absent historically |
-| `name_parse_flag` | Diagnostic retained from the name-parsing routine. | Extension only; generally absent historically |
-| `district_raw` | Original district label retained before parsing. | Extension only; generally absent historically |
