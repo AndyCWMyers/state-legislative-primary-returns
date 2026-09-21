@@ -1,6 +1,6 @@
-# State Legislative Primary Elections Data, 1990-2024
+# State Legislative Primary Elections Data, 1990-2026
 
-Primary election returns for U.S. state legislatures, covering all 50 states from 1990 to 2024. The dataset includes vote totals, primary runoff results, and incumbency status.
+Primary election returns for U.S. state legislatures, covering all 50 states from 1990 to 2026. The dataset includes vote totals, primary runoff results, and incumbency status.
 
 Read our companion paper for complete details. Please direct questions and comments to [Andy Myers](www.andrewcwmyers.com).
 
@@ -9,16 +9,18 @@ Read our companion paper for complete details. Please direct questions and comme
 | | |
 |---|---|
 | **States** | 50 states |
-| **Years** | 1990--2024 (35 election cycles) |
+| **Years** | 1990–2026 (37 election cycles) |
 | **Chambers** | Upper (senate) and lower (house/assembly) |
 | **Parties** | Democratic and Republican primaries |
-| **Candidates** | 144,864 candidate-election observations |
+| **Candidates** | 159,573 candidate-election observations |
 
 ## Files
 
-The database is available in three formats: CSV, Stata (.dta), and R (.rds). Each row in the dataset corresponds to a candidate-election.
+The database is available in three formats: [CSV](stateleg_prim_elec_data.csv), [Stata (.dta)](stateleg_prim_elec_data.dta), and [R (.rds)](stateleg_prim_elec_data.rds). Each row in the dataset corresponds to a candidate-election.
 
 ## Variables
+
+The table below lists the core variables. The complete codebook covers all 58 variables and is available in [Markdown](stateleg_prim_elec_data_codebook.md) and [CSV](stateleg_prim_elec_data_codebook.csv).
 
 | Variable | Description |
 |---|---|
@@ -34,6 +36,7 @@ The database is available in three formats: CSV, Stata (.dta), and R (.rds). Eac
 | `klarner_id` | Candidate ID from Klarner general election data |
 | `bonica_rid` | DIME (Bonica) recipient ID |
 | `ftm_id` | Follow the Money / NIMSP candidate ID |
+| `sm_id` | Shor–McCarty legislator ID |
 | `first_name` | Candidate first name |
 | `middle_name` | Candidate middle name |
 | `last_name` | Candidate last name |
@@ -55,10 +58,11 @@ The dataset can be linked to the following external databases via the included i
 - **[State Legislative Election Returns (SLERS)](https://doi.org/10.7910/DVN/DGUMFI)** (`klarner_id`) -- General election returns, including vote totals and win/loss outcomes for state legislative races.
 - **[Database on Ideology, Money in Politics, and Elections (DIME)](https://data.stanford.edu/dime)** (`bonica_rid`) -- Campaign contributions and donor-based ideology scores for candidates at all levels of U.S. government.
 - **[Follow the Money / NIMSP](https://www.followthemoney.org/)** (`ftm_id`) -- State-level campaign finance records, including contributions and expenditures.
+- **[Shor–McCarty Legislator Ideology Data](https://americanlegislatures.wordpress.com/data/)** (`sm_id`) -- Common-space ideology estimates (NP-scores) for state legislators.
 
-## Citation
+## Suggested citation
 
-> Myers, Andrew C. "State Legislative Primary Election Data, 1990--2024."
+> Myers, Andrew C. W., Steven Rogers, Alexander Fouirnaies, Andrew B. Hall, Cassandra Handan-Nader, and Jason Windett. 2026. "State Legislative Primary Election Data, 1990–2026."
 
 ## Publications Using This Data
 

@@ -1,0 +1,59 @@
+variable,description,availability
+year,Election year.,Historical and extension
+state,Two-letter USPS state abbreviation.,Historical and extension
+chamber,"L = house/lower chamber; U = senate/upper chamber, including Nebraska.",Historical and extension
+party,dem = Democratic; rep = Republican; NP = Nebraska nonpartisan.,Historical and extension
+district_num,Parsed numeric district component; missing where absent.,Historical and extension
+district_alpha,Parsed named or alphabetic district component.,Historical and extension
+district_post,Seat position or subdistrict suffix where reported.,Historical and extension
+regime,Historical redistricting regime identifier; unverified and missing for the extension.,Historical only; missing for extension
+primary_race_id,Numeric contest identifier. Historical IDs are preserved. New IDs distinguish cycles and shared mixed-party qualifying contests.,Historical and extension
+klarner_id,Historical Klarner SLERS candidate-election identifier.,Historical only; missing for extension
+bonica_rid,Historical DIME recipient identifier.,Historical only; missing for extension
+ftm_id,Historical Follow the Money candidate identifier.,Historical only; missing for extension
+sm_id,Historical Shor-McCarty legislator identifier.,Historical only; missing for extension
+first_name,Parsed first name.,Historical and extension
+middle_name,Parsed middle name.,Historical and extension
+last_name,Parsed last name.,Historical and extension
+name_suffix,Parsed name suffix.,Historical and extension
+votes_primary,Observed primary vote total; missing does not mean zero.,Historical and extension
+win_primary,Historical maximum-vote indicator; not a validated advancement rule for all systems. Missing for the extension.,Historical only; missing for extension
+ran_primary_runoff,"Historical 0/1 participation indicator. In the extension, 1 if observed; otherwise missing, not 0.",Historical and extension
+votes_primary_runoff,Observed primary-runoff vote total; missing does not mean zero.,Historical and extension
+win_primary_runoff,Historical runoff win indicator; missing for the extension.,Historical only; missing for extension
+win_primary_final,Historical final nomination indicator combining primary and runoff coding; missing for the extension.,Historical only; missing for extension
+inc,Historical same-chamber incumbency (1/0); missing for the extension.,Historical only; missing for extension
+smd,Historical single-member district indicator; missing for the extension.,Historical only; missing for extension
+district_seats,Historical number of seats; unsupported counts remain missing in the extension.,Historical only; missing for extension
+primary_id,New stable candidate-ballot-cycle identifier (P plus SHA-256); not a cross-year person link.,Extension only; generally absent historically
+full_name,Literal candidate name retained from the collection.,Extension only; generally absent historically
+collection_id,New stable collection record identifier (C plus SHA-256).,Extension only; generally absent historically
+cycle_id,Collection election-cycle label; distinguishes replacement or rescheduled cycles.,Extension only; generally absent historically
+ballot_party,"Source collection ballot-party code, retained separately from analytical party.",Extension only; generally absent historically
+race_key,"Collection contest key incorporating year, state, office, district, party grouping, and cycle.",Extension only; generally absent historically
+source_status,Certification or source-status description retained from collection.,Extension only; generally absent historically
+source_review_flag,1 if collection source status requires review; 0 otherwise. See source status for qualifications.,Extension only; generally absent historically
+replaced_for_nomination,Collection flag identifying a superseded nomination cycle where reported.,Extension only; generally absent historically
+replacement_source_url,Documentation for a replacement or rescheduled nomination cycle.,Extension only; generally absent historically
+election_date_p,Reported primary date.,Extension only; generally absent historically
+election_date_pr,Reported primary runoff date.,Extension only; generally absent historically
+contest_id_p,Source primary contest identifier.,Extension only; generally absent historically
+contest_id_pr,Source primary runoff contest identifier.,Extension only; generally absent historically
+candidate_id_p,Source primary candidate identifier; not a national person ID.,Extension only; generally absent historically
+candidate_id_pr,Source primary runoff candidate identifier; not a national person ID.,Extension only; generally absent historically
+source_contest_p,Literal primary contest label.,Extension only; generally absent historically
+source_contest_pr,Literal primary runoff contest label.,Extension only; generally absent historically
+source_url_p,Official source URL for the primary return.,Extension only; generally absent historically
+source_url_pr,Official source URL for the primary runoff return.,Extension only; generally absent historically
+source_file_p,Archived local input path for the primary return.,Extension only; generally absent historically
+source_file_pr,Archived local input path for the primary runoff return.,Extension only; generally absent historically
+primary_only,Extension flag marking records integrated without general-election data.,Extension only; generally absent historically
+general_data_available,Extension flag recording whether general-election data are available in this integration (0).,Extension only; generally absent historically
+identity_link_status,Status of historical-person and external-identifier linkage.,Extension only; generally absent historically
+district_map_status,Status of geographic district/regime validation.,Extension only; generally absent historically
+coverage_review_status,Status of contest-coverage review; not a certification of national completeness.,Extension only; generally absent historically
+outcome_status,Reason outcome indicators and derived shares remain unvalidated.,Extension only; generally absent historically
+runoff_status,Observed or unobserved runoff-return status.,Extension only; generally absent historically
+source_vote_for,Published ballot vote limit; not automatically seats or number advancing.,Extension only; generally absent historically
+name_parse_flag,Diagnostic retained from the name-parsing routine.,Extension only; generally absent historically
+district_raw,Original district label retained before parsing.,Extension only; generally absent historically
