@@ -68,3 +68,4 @@ The dataset can be linked to the following external databases via the included i
 - Handan-Nader, Cassandra, Andrew C. W. Myers, and Andrew B. Hall. 2025. "Polarization and State Legislative Elections." *American Journal of Political Science.* [doi:10.1111/ajps.12973](https://doi.org/10.1111/ajps.12973)
 - Rogers, Steven. 2023. *Accountability in State Legislatures.* University of Chicago Press.
 - Fouirnaies, Alexander, and Andrew B. Hall. 2020. "How Divisive Primaries Hurt Parties: Evidence from Near-Runoffs in US Legislatures." *Journal of Politics* 82(1): 43--56. [doi:10.1086/705597](https://doi.org/10.1086/705597)
+- Rogers, Steven. 2015. "Strategic Challenger Entry in a Federal System: The Role of Economic and Political Conditions in State Legislative Competition." *Legislative Studies Quarterly* 40(4): 539–570. [doi:10.1111/lsq.12088](https://doi.org/10.1111/lsq.12088)
