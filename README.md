@@ -56,11 +56,11 @@ The dataset can be linked to the following external databases via the included i
 - **[State Legislative Election Returns (SLERS)](https://doi.org/10.7910/DVN/DGUMFI)** (`klarner_id`) -- General election returns, including vote totals and win/loss outcomes for state legislative races.
 - **[Database on Ideology, Money in Politics, and Elections (DIME)](https://data.stanford.edu/dime)** (`bonica_rid`) -- Campaign contributions and donor-based ideology scores for candidates at all levels of U.S. government.
 - **[Follow the Money / NIMSP](https://www.followthemoney.org/)** (`ftm_id`) -- State-level campaign finance records, including contributions and expenditures.
-- **[Shor–McCarty Legislator Ideology Data](https://americanlegislatures.wordpress.com/data/)** (`sm_id`) -- Common-space ideology estimates (NP-scores) for state legislators.
+- **[Shor-McCarty Roll-Call Voting Ideology Data](https://americanlegislatures.wordpress.com/data/)** (`sm_id`) -- Common-space ideology estimates (NP-scores) for state legislators.
 
 ## Suggested citation
 
-> Myers, Andrew C. W., Steven Rogers, Alexander Fouirnaies, Andrew B. Hall, Cassandra Handan-Nader, and Jason Windett. 2026. "[State Legislative Primary Election Returns Database, 1990–2026](https://www.andrewcwmyers.com/myers_et_al_stateleg_primary_elec_data.pdf?utm_source=githubrepo)." Working paper.
+> Myers, Andrew C. W., Steven Rogers, Alexander Fouirnaies, Andrew B. Hall, Cassandra Handan-Nader, and Jason Windett. 2026. "State Legislative Primary Election Returns Database, 1990–2026." <https://www.andrewcwmyers.com/myers_et_al_stateleg_primary_elec_data.pdf?utm_source=githubrepo>
 
 ## Publications Using This Data
 
