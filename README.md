@@ -2,7 +2,7 @@
 
 Primary election returns for U.S. state legislatures, covering all 50 states from 1990 to 2026. The dataset includes vote totals, primary runoff results, and incumbency status.
 
-Read our companion paper for complete details. Please direct questions and comments to [Andy Myers](www.andrewcwmyers.com).
+Read our [companion paper](https://www.andrewcwmyers.com/myers_et_al_stateleg_primary_elec_data.pdf?utm_source=githubrepo) for complete details. Please direct questions and comments to [Andy Myers](www.andrewcwmyers.com).
 
 ## Coverage
 
