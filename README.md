@@ -60,7 +60,7 @@ The dataset can be linked to the following external databases via the included i
 
 ## Suggested citation
 
-> Myers, Andrew C. W., Steven Rogers, Alexander Fouirnaies, Andrew B. Hall, Cassandra Handan-Nader, and Jason Windett. 2026. "State Legislative Primary Election Data, 1990–2026."
+> Myers, Andrew C. W., Steven Rogers, Alexander Fouirnaies, Andrew B. Hall, Cassandra Handan-Nader, and Jason Windett. 2026. "[State Legislative Primary Election Returns Database, 1990–2026](https://www.andrewcwmyers.com/myers_et_al_stateleg_primary_elec_data.pdf?utm_source=githubrepo)." Working paper.
 
 ## Publications Using This Data
 
