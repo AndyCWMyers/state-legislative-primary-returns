@@ -20,7 +20,7 @@ The database is available in three formats: [CSV](stateleg_prim_elec_data.csv), 
 
 ## Variables
 
-The table below lists the core variables. The complete codebook covers all 58 variables and is available in [Markdown](stateleg_prim_elec_data_codebook.md) and [CSV](stateleg_prim_elec_data_codebook.csv).
+The table below lists the core variables. The complete codebook covers all 26 variables and is available in [Markdown](stateleg_prim_elec_data_codebook.md) and [CSV](stateleg_prim_elec_data_codebook.csv).
 
 | Variable | Description |
 |---|---|
