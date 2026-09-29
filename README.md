@@ -22,32 +22,32 @@ The database is available in three formats: [CSV](stateleg_prim_elec_data.csv), 
 
 | Variable | Description | Coverage |
 |---|---|---|
-| `year` | Election year | 1990–2026 |
-| `state` | State (2-letter USPS abbreviation) | 1990–2026 |
-| `chamber` | Legislative chamber (`U` = upper/senate, `L` = lower/house) | 1990–2026 |
-| `party` | Party (`dem` or `rep`) | 1990–2026 |
-| `district_num` | District number | 1990–2026 |
-| `district_alpha` | Named district component (county, town, etc.; MA, VT, NH lower, AK upper only) | 1990–2026 |
-| `district_post` | Position designator within district, for multi-post districts (ID, MD, MN, WA lower; select ND lower districts) | 1990–2026 |
-| `regime` | Redistricting regime (increments with each redistricting cycle) | 1990–2026 |
-| `primary_race_id` | Unique primary race identifier | 1990–2026 |
-| `klarner_id` | Candidate ID from Klarner general election data | 1990–2024 |
-| `bonica_rid` | DIME (Bonica) recipient ID | 1992–2022 |
-| `ftm_id` | Follow the Money / NIMSP candidate ID | 1992–2022 |
-| `sm_id` | Shor–McCarty legislator ID | 1992–2021 |
-| `first_name` | Candidate first name | 1990–2026 |
-| `middle_name` | Candidate middle name | 1990–2026 |
-| `last_name` | Candidate last name | 1990–2026 |
-| `name_suffix` | Name suffix (Jr., Sr., III, etc.) | 1990–2026 |
-| `votes_primary` | Raw vote total in primary election | 1990–2026 |
-| `win_primary` | 1 if candidate received plurality of votes in primary | 1990–2026 |
-| `ran_primary_runoff` | 1 if candidate participated in a primary runoff | 1990–2026 |
-| `votes_primary_runoff` | Raw vote total in primary runoff | 1990–2026 |
-| `win_primary_runoff` | 1 if candidate won primary runoff | 1990–2026 |
-| `win_primary_final` | 1 if candidate won nomination (uses runoff result where applicable) | 1990–2026 |
-| `inc` | 1 if candidate is incumbent in this chamber | 1990–2024 |
-| `smd` | 1 if single-member district | 1990–2026 |
-| `district_seats` | Number of seats in this district | 1990–2026 |
+| `year` | Election year | 1990&#8288;–&#8288;2026 |
+| `state` | State (2-letter USPS abbreviation) | 1990&#8288;–&#8288;2026 |
+| `chamber` | Legislative chamber (`U` = upper/senate, `L` = lower/house) | 1990&#8288;–&#8288;2026 |
+| `party` | Party (`dem` or `rep`) | 1990&#8288;–&#8288;2026 |
+| `district_num` | District number | 1990&#8288;–&#8288;2026 |
+| `district_alpha` | Named district component (county, town, etc.; MA, VT, NH lower, AK upper only) | 1990&#8288;–&#8288;2026 |
+| `district_post` | Position designator within district, for multi-post districts (ID, MD, MN, WA lower; select ND lower districts) | 1990&#8288;–&#8288;2026 |
+| `regime` | Redistricting regime (increments with each redistricting cycle) | 1990&#8288;–&#8288;2026 |
+| `primary_race_id` | Unique primary race identifier | 1990&#8288;–&#8288;2026 |
+| `klarner_id` | Candidate ID from Klarner general election data | 1990&#8288;–&#8288;2024 |
+| `bonica_rid` | DIME (Bonica) recipient ID | 1992&#8288;–&#8288;2022 |
+| `ftm_id` | Follow the Money / NIMSP candidate ID | 1992&#8288;–&#8288;2022 |
+| `sm_id` | Shor–McCarty legislator ID | 1992&#8288;–&#8288;2021 |
+| `first_name` | Candidate first name | 1990&#8288;–&#8288;2026 |
+| `middle_name` | Candidate middle name | 1990&#8288;–&#8288;2026 |
+| `last_name` | Candidate last name | 1990&#8288;–&#8288;2026 |
+| `name_suffix` | Name suffix (Jr., Sr., III, etc.) | 1990&#8288;–&#8288;2026 |
+| `votes_primary` | Raw vote total in primary election | 1990&#8288;–&#8288;2026 |
+| `win_primary` | 1 if candidate received plurality of votes in primary | 1990&#8288;–&#8288;2026 |
+| `ran_primary_runoff` | 1 if candidate participated in a primary runoff | 1990&#8288;–&#8288;2026 |
+| `votes_primary_runoff` | Raw vote total in primary runoff | 1990&#8288;–&#8288;2026 |
+| `win_primary_runoff` | 1 if candidate won primary runoff | 1990&#8288;–&#8288;2026 |
+| `win_primary_final` | 1 if candidate won nomination (uses runoff result where applicable) | 1990&#8288;–&#8288;2026 |
+| `inc` | 1 if candidate is incumbent in this chamber | 1990&#8288;–&#8288;2024 |
+| `smd` | 1 if single-member district | 1990&#8288;–&#8288;2026 |
+| `district_seats` | Number of seats in this district | 1990&#8288;–&#8288;2026 |
 
 Coverage gives the election-year ranges reported in the paper; availability varies by state, year, and candidate.
 
